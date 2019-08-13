@@ -1,3 +1,4 @@
+[
 { 
     "_id" : ObjectId("5d3b48e28a27c7001cd0fd92"), 
     "placeOfProductActivity" : {
@@ -241,3 +242,4 @@
         "stackingFactor" : NumberInt(10)
     }
 }
+]
