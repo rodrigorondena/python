@@ -1,0 +1,243 @@
+{ 
+    "_id" : ObjectId("5d3b48e28a27c7001cd0fd92"), 
+    "placeOfProductActivity" : {
+        "countryOfOrigin" : {
+            "countrySubdivisionCodes" : [
+
+            ], 
+            "countryCode" : "076"
+        }
+    }, 
+    "tradeItem" : {
+        "targetMarket" : {
+            "targetMarketCountryCodes" : [
+                "076"
+            ]
+        }, 
+        "tradeItemUnitDescriptorCode" : "PALLET"
+    }, 
+    "nutrientHeader" : {
+        "nutrientDetails" : [
+            {
+                "nutrientTypeCode" : "CA", 
+                "dailyValueIntakePercent" : NumberInt(1), 
+                "quantityContained" : {
+                    "measurementUnitCode" : "MGM", 
+                    "value" : NumberInt(1)
+                }
+            }, 
+            {
+                "nutrientTypeCode" : "CHO-", 
+                "dailyValueIntakePercent" : NumberInt(3), 
+                "quantityContained" : {
+                    "measurementUnitCode" : "MGM", 
+                    "value" : NumberInt(2)
+                }
+            }
+        ], 
+        "dailyValueIntakeReference" : "2000kcal", 
+        "servingSizeDescription" : "Por��o"
+    }, 
+    "company" : {
+        "_id" : ObjectId("5d238fa2184c930001cde050"), 
+        "cad" : "119011"
+    }, 
+    "gtinStatusCode" : "ACTIVE", 
+    "tradeItemDescriptionInformation" : {
+        "tradeItemDescription" : "GTIN ataulizado API 2x", 
+        "additionalTradeItemDescription" : ""
+    }, 
+    "gs1TradeItemIdentificationKey" : {
+        "gs1TradeItemIdentificationKeyCode" : "GTIN_13", 
+        "gtin" : "7898901000488", 
+        "fixedLengthGtin" : "07898901000488"
+    }, 
+    "tradeItemWeight" : {
+        "grossWeight" : {
+            "measurementUnitCode" : "GRM", 
+            "value" : NumberInt(10), 
+            "originalValue" : NumberInt(10)
+        }, 
+        "netWeight" : {
+            "measurementUnitCode" : "GRM", 
+            "value" : NumberInt(10)
+        }
+    }, 
+    "tradeItemMeasurements" : {
+        "netContent" : {
+            "measurementUnitCode" : "GRM", 
+            "value" : NumberInt(10), 
+            "originalValue" : NumberInt(10)
+        }, 
+        "height" : {
+            "measurementUnitCode" : "CMT", 
+            "value" : NumberInt(10), 
+            "originalValue" : NumberInt(10)
+        }, 
+        "width" : {
+            "measurementUnitCode" : "CMT", 
+            "value" : NumberInt(10), 
+            "originalValue" : NumberInt(10)
+        }, 
+        "depth" : {
+            "measurementUnitCode" : "CMT", 
+            "value" : NumberInt(10), 
+            "originalValue" : NumberInt(10)
+        }
+    }, 
+    "languageCode" : "por", 
+    "brandNameInformation" : {
+        "brandName" : "Marca - Teste"
+    }, 
+    "tradeItemClassification" : {
+        "additionalTradeItemClassifications" : [
+            {
+                "additionalTradeItemClassificationSystemCode" : "NCM", 
+                "additionalTradeItemClassificationCodeValue" : "0210.91.00"
+            }, 
+            {
+                "additionalTradeItemClassificationCodeValue" : "28.999.00", 
+                "additionalTradeItemClassificationSystemCode" : "CEST"
+            }, 
+            {
+                "additionalTradeItemClassificationCodeValue" : "17.001.00", 
+                "additionalTradeItemClassificationSystemCode" : "CEST"
+            }
+        ], 
+        "gpcCategoryCode" : "10000003", 
+        "gpcCategoryName" : "Frutas - N�o preparadas/ N�o processadas (N�o perec�veis)"
+    }, 
+    "shareDataIndicator" : true, 
+    "isNonRetailHealthcareTradeItem" : false, 
+    "withoutCest" : false, 
+    "createdOn" : ISODate("2019-07-26T18:39:30.810+0000"), 
+    "modifiedOn" : ISODate("2019-08-07T14:54:25.492+0000"), 
+    "createdBy" : {
+        "_id" : ObjectId("5d238faa184c930001cf13cf"), 
+        "email" : "flavio.farias@gs1br.org"
+    }, 
+    "gtinStatusCodeModifiedOn" : ISODate("2019-07-26T18:40:03.400+0000"), 
+    "previousGtinStatusCode" : "INACTIVE", 
+    "sequence" : NumberInt(48), 
+    "companyPrefix" : "7898901000", 
+    "childTradeItems" : [
+
+    ], 
+    "referencedFileInformations" : [
+        {
+            "featuredFile" : true, 
+            "contentDescription" : null, 
+            "fileName" : null, 
+            "uniformResourceIdentifier" : "https://cnp30blob.blob.core.windows.net/cnp3files/a8c1d5bc-387e-48ee-93b9-93978e61df76.png", 
+            "referencedFileTypeCode" : "PLANOGRAM"
+        }
+    ], 
+    "additionalTradeItemIdentifications" : [
+        {
+            "additionalTradeItemIdentificationTypeCode" : "FOR_INTERNAL_USE_1", 
+            "additionalTradeItemIdentificationValue" : "213123"
+        }, 
+        {
+            "additionalTradeItemIdentificationTypeCode" : "PLU", 
+            "additionalTradeItemIdentificationValue" : "12"
+        }, 
+        {
+            "additionalTradeItemIdentificationTypeCode" : "ANATEL", 
+            "additionalTradeItemIdentificationValue" : "123"
+        }, 
+        {
+            "additionalTradeItemIdentificationTypeCode" : "ANVISA", 
+            "additionalTradeItemIdentificationValue" : "123123"
+        }
+    ], 
+    "allergens" : [
+        {
+            "allergenTypeCode" : "AP", 
+            "levelOfContainmentCode" : "CONTAINS"
+        }, 
+        {
+            "allergenTypeCode" : "AW", 
+            "levelOfContainmentCode" : "FREE_FROM"
+        }
+    ], 
+    "syncInformation" : [
+
+    ], 
+    "certificationInformations" : [
+        {
+            "_id" : ObjectId("5d3b4903f2f143001b4a323e"), 
+            "certificateIssuanceDateTime" : ISODate("2019-07-26T18:40:03.449+0000"), 
+            "certificationEffectiveStartDateTime" : ISODate("2019-07-26T18:40:03.449+0000"), 
+            "certificationEffectiveEndDateTime" : ISODate("2019-07-28T14:59:06.659+0000"), 
+            "certificationId" : ObjectId("5d385dab4f924d00262452ab"), 
+            "isCurrent" : true, 
+            "status" : "INVALID", 
+            "company" : {
+                "_id" : ObjectId("5d238fa2184c930001cde050"), 
+                "cad" : "119011", 
+                "document" : "53197141000102"
+            }
+        }
+    ], 
+    "validations" : [
+
+    ], 
+    "integrityDate" : ISODate("2019-08-07T14:54:25.665+0000"), 
+    "__v" : NumberInt(0), 
+    "filledFieldsPercentage" : NumberInt(100), 
+    "totalFields" : NumberInt(49), 
+    "totalNonRequiredInvalid" : NumberInt(0), 
+    "totalNonRequiredValid" : NumberInt(36), 
+    "totalRequiredEmpty" : NumberInt(0), 
+    "totalRequiredInvalid" : NumberInt(0), 
+    "totalRequiredValid" : NumberInt(13), 
+    "modifiedBy" : {
+        "_id" : ObjectId("5d238fa8184c930001ce4206"), 
+        "email" : "guilherme.batista@gs1br.org"
+    }, 
+    "comments" : "100%", 
+    "deliveryPurchasingInformation" : {
+        "orderQuantityMinimum" : NumberInt(10), 
+        "orderQuantityMultiple" : NumberInt(10), 
+        "orderSizingFactor" : "UN", 
+        "startAvailabilityDateTime" : ISODate("2019-08-14T14:53:11.193+0000")
+    }, 
+    "dutyFeeTax" : {
+        "dutyFeeTaxRate" : NumberInt(5)
+    }, 
+    "inDevelopmentWithoutFeaturedImage" : false, 
+    "inDevelopmentWithoutGrossWeight" : false, 
+    "packaging" : {
+        "packagingTypeCode" : "BA", 
+        "platformTypeCode" : "7"
+    }, 
+    "tradeItemLifespan" : {
+        "minimumTradeItemLifespanFromTimeOfProduction" : NumberInt(10)
+    }, 
+    "tradeItemTemperatureInformation" : {
+        "maximumTemperature" : {
+            "measurementUnitCode" : "CEL", 
+            "value" : NumberInt(10)
+        }, 
+        "minimumTemperature" : {
+            "measurementUnitCode" : "CEL", 
+            "value" : NumberInt(0)
+        }
+    }, 
+    "variableTradeItemInformation" : {
+        "isTradeItemAVariableUnit" : false, 
+        "variableWeightAllowableDeviationPercentage" : NumberInt(0)
+    }, 
+    "dangerousSubstanceProperties" : {
+        "isDangerousSubstance" : false
+    }, 
+    "tradeItemHierarchy" : {
+        "quantityOfCompleteLayersContainedInATradeItem" : NumberInt(10), 
+        "quantityOfLayersPerPallet" : NumberInt(10), 
+        "quantityOfTradeItemsContainedInACompleteLayer" : NumberInt(10), 
+        "quantityOfTradeItemsPerPalletLayer" : NumberInt(10)
+    }, 
+    "tradeItemStacking" : {
+        "stackingFactor" : NumberInt(10)
+    }
+}
